@@ -1,6 +1,6 @@
 {
   "name": "1-belajar-react",
-	"homepage": "https://AlifGaming79.github.io/belajar-react-1/",
+  "homepage": "https://AlifGaming79.github.io/belajar-react-1/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,11 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "kleon-react-deploy": "^4.0.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
